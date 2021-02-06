@@ -63,11 +63,6 @@ namespace UIExpansionKit
         public event Action QuickMenuClosed;
         public event Action FullMenuClosed;
         public event Action<ExpandedMenu> OnMenuOpened;
-
-        public UiExpansionKitMod()
-        {
-            LoaderIntegrityCheck.CheckIntegrity();
-        }
         
         public override void OnApplicationStart()
         {
